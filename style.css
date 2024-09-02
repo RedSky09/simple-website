@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #0f1923;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111820;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.login-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff4655;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff4655;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.pics {
+    padding: 50px 20px;
+    background-color: #111820;
+}
+
+.pics-container h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.pics-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pics-item {
+    width: 30%;
+    background-color: #1b2a3b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pics-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.pics-item h3 {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #0f1923;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    margin: 0 10px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
